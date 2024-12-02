@@ -1,18 +1,22 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    
+    
+}
+
+
 * {
     padding: 0;
     margin: 0;
 }
 
 
-html, body{
-    width: 100%;
-    height: 100%;
-    
-}
 
 
 .info{
-    background-color: grey;
+    background-color: rgb(213, 143, 80);
     display: flex;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
     justify-content: space-between;
@@ -28,9 +32,8 @@ html, body{
     margin-left: 2rem;
 }
 
-
 .presentation{
-    background-color: white;
+    background-color: rgb(235, 225, 152);
     height: 12rem;
     margin-top: -2.1rem;
 }
@@ -57,36 +60,33 @@ html, body{
 
 .logo img {
    
-    margin-left: -1rem;
+    margin-left: 25px;
    
 }
 
 
 .title1 h4 { 
     background-color: transparent;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 10rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    margin-left: 45px;
     margin-top: -1rem;
     margin-bottom: 2rem;
-    font-size: large;
+    font-size: 2rem;
     font-weight: 100;
-    color: burlywood;
+    color: orangered;
 
 }
 
 .navigation{
-    background-color: non;
+    background-color:none ;
     margin: 1rem;
-    margin-top: -2rem;
+    width: 100%;
+    margin-top: -0.5rem;
     height: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    ;
-    font-size: 1.6rem;
+    font-size: 2rem;
     
     display: flex;
     justify-content: space-between;
@@ -113,16 +113,13 @@ html, body{
     text-decoration: none;
     list-style-type: none;
     padding: 1.2rem;
-    color: grey;
+    color: orangered;
 }
 
 .navigation li a:hover{
-    color: orangered;
-
-   
+    color: whitesmoke;
+  
 }
-
-
 
 .hero{
     width: 100%;
@@ -137,32 +134,26 @@ html, body{
     background-image: url(aurelia-dubois-6J0MUsmS4fQ-unsplash.jpg);  
 }
 
-@media (min-width:320px) { 
 
-    .hero{
-        width: 150%;
-
-    }
+.line1{
+    width: 100rem;
+    background-color: orangered;
+    height: 5px;
+    margin-left: 5rem;
     
 }
-
-@media (min-width: 150px) {
-    .hero{
-        width: 100%;
-    }
-}
-
 
 
 .package{
     margin-left: 2rem;
-    padding-top:10rem;
+    padding-top:7rem;
     margin-right: 2rem;
     background-color: transparent;
-}
+} 
 
 
-.title11 {
+
+/*.title11 {
     height: 15rem;
     width: 40rem;
     padding-top: 5rem;
@@ -170,15 +161,51 @@ html, body{
     margin-left: 10rem;
     font-size: 3rem;
 
+}*/
+
+
+.title11 {
+    display: inline-block;
+    height: 15rem;
+    width: 80rem;
+    padding-top: 5rem;
+    margin-top: 8rem;
+    margin-left: 5rem;
+
+}
+
+.typeeffect{
+    font-size: 8em;
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    color: orangered;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 3s steps(18),
+    cursor .4s step-end infinite alternate;
+
+}
+
+/*sursor blink*/
+@keyframes cursor{
+    20% { border-color: transparent }
+}
+
+/*typing effect*/
+@keyframes typing {
+    from { width: 0}
 }
 
 
 .title2{
 
     background-color: transparent;
-    margin-top: -0.8rem; 
-    margin-left: 10rem;
-    font-size: 1.2rem;
+    margin-top: -5rem; 
+    margin-left: 6rem;
+    font-size: 2.5rem;
+    color: rgb(119, 24, 145);
 }
 
 
@@ -212,7 +239,6 @@ html, body{
     
 }
 
-
 .main{
     background-color:white;
     margin-top: 6rem;
@@ -225,11 +251,9 @@ html, body{
     background-color: white;
     width: 25%;
     height: 40rem;
-    
     margin-left: 15rem;
     
 }
-
 
 .Text .line2{
     border: 2px solid orangered;
@@ -243,12 +267,13 @@ html, body{
 }
 
 
+
 .Text h2{
     
     margin-bottom: 2rem;
     font-size: 2rem;
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
     line-height: 2rem;
     letter-spacing: 1px;
     
@@ -304,11 +329,24 @@ html, body{
     
 }
 
+.box1 .line2{
+    border: 2px solid orangered;
+    height: 100px;
+    margin-top: 2rem;
+    width: 0.0006vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    
+}
+
+
 .box1 h2{
     font-size: 2.5rem;
     text-align: center;
 
 }
+
 
 .box1 p{
     text-align: center;
@@ -319,19 +357,10 @@ html, body{
     
 }
 
-.line{
-
-    border-left: 2px solid rgb(255, 140, 0);
-    height: 100px;
-    position:absolute;
-    left: 50%;
-    margin-top: 2rem;
-    
-}
 
 .box1 button {
     width: 10rem;
-    margin-top: 10rem;
+    margin-top: 4rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -342,7 +371,6 @@ html, body{
     
 
 }
-
 
 
 .box1 button a{
@@ -359,7 +387,6 @@ html, body{
     background-color: orangered; 
     color: white; 
 }
-
 
 
 .images{
@@ -387,8 +414,10 @@ html, body{
     background-color: white;
 }
 
+
 .section1 .BigTitle{
     text-align: center;
+    margin-left: 150px;
     color: orangered;
     font-size: 2rem;
     
@@ -403,9 +432,11 @@ html, body{
 }
 
 .section1 .BigTitle a:hover{
-    color: greenyellow;
+    color: brown;
 
 }
+
+
 
 .section1 .image5 img {
     height: 30rem;
@@ -414,6 +445,7 @@ html, body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: green;
 }
 
 
@@ -561,3 +593,15 @@ h2 {
     text-decoration: none;
     color: wheat;
   }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -32,7 +32,7 @@ body::before {
   border-radius: 8px;
   padding: 30px;
   text-align: center;
-  border: 5px solid black;
+  border: 1px solid orangered;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(50px);
 }
@@ -45,7 +45,7 @@ form {
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: black;
+  color: orangered;
 }
 
 .input-field {
@@ -128,5 +128,32 @@ button:hover {
 }
 
 .register a {
-    color: black;
+    color: orangered;
 }
+
+.Home{
+
+    background-color: #ccb28c;
+    width: 50%;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+
+.Home a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.Home:hover{
+    border: #c38325;
+}
+
+
+.Home h5 {
+    padding-top: 6px;}
