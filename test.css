@@ -14,7 +14,6 @@ html, body{
 
 
 
-
 .info{
     background-color: rgb(213, 143, 80);
     display: flex;
@@ -86,7 +85,7 @@ html, body{
     height: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     
     display: flex;
     justify-content: space-between;

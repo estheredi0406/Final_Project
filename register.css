@@ -50,23 +50,24 @@ h2 {
 
 .input-field {
   position: relative;
-  border: 2px solid black;
-  margin: 12px 0;
+  border: 1px solid orangered;
+  margin: 12px ;
   padding: 5px;
   border-radius: 30px;
   
 }
 
-.input-field label {
+/*.input-field label {
   position: absolute;
   top: 50%;
   left:10px;
-  transform: translateY(-10%);
-  color: black;
+  transform: translateY(-20%);
+  color: rgb(46, 138, 103);
   font-size: 10px;
   pointer-events: none;
   transition: 0.15s ease;
-}
+}*/
+
 
 .input-field input {
   width: 100%;
@@ -76,10 +77,12 @@ h2 {
   outline: none;
   font-size: 16px;
   color: black;
+  padding-left: 10px;
 }
 
 .input-field ::placeholder {
-    color: #0f0e0e;
+    color: white;
+    padding-left: 10px;
 }
 
 
@@ -103,7 +106,7 @@ h2 {
 
 button {
   background: #c38325;
-  color: #000;
+  color: white;
   font-weight: 600;
   border: none;
   padding: 12px 20px;
@@ -117,7 +120,7 @@ button {
 
 button:hover {
   color: orangered;
-  border-color: #fff;
+  border-color: none;
   background: rgba(218, 137, 137, 0.15);
 }
 
