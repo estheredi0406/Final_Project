@@ -1,9 +1,7 @@
 html, body{
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
-    
-    
+    overflow-x: hidden;  /*To qvoid horizontal scrolling*/
 }
 
 
@@ -13,6 +11,47 @@ html, body{
 }
 
 
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.navigation{
+    background-color:none ;
+    margin: 1rem;
+    width: 100%;
+    margin-top: -0.5rem;
+    height: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 1.2rem;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navigation li {
+    
+    list-style-type: none;
+    display: inline;
+}
+
+
+.navigation li a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1.2rem;
+    color: orangered;
+}
+
+.navigation li a:hover{
+    color: whitesmoke;
+  
+}
 
 .info{
     background-color: rgb(213, 143, 80);
@@ -21,6 +60,7 @@ html, body{
     justify-content: space-between;
     padding: 0.5rem;
 }
+
 
 .number{
     margin-right: 2rem;
@@ -77,52 +117,10 @@ html, body{
 
 }
 
-.navigation{
-    background-color:none ;
-    margin: 1rem;
-    width: 100%;
-    margin-top: -0.5rem;
-    height: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    font-size: 1.2rem;
-    
-    display: flex;
-    justify-content: space-between;
-    
-}
 
-.fixed{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-
-}
-
-
-.navigation li {
-    
-    list-style-type: none;
-    display: inline;
-}
-
-
-.navigation li a{
-    text-decoration: none;
-    list-style-type: none;
-    padding: 1.2rem;
-    color: orangered;
-}
-
-.navigation li a:hover{
-    color: whitesmoke;
-  
-}
 
 .hero{
     width: 100%;
-    
     margin-top: 2rem;
     margin-right: 10rem;
     margin-left: 5rem;
@@ -188,8 +186,8 @@ html, body{
 }
 
 /*sursor blink*/
-@keyframes cursor{
-    20% { border-color: transparent }
+@keyframes cursor {
+    20% { border-color: white}
 }
 
 /*typing effect*/
@@ -234,7 +232,7 @@ html, body{
 } 
 
 .button1 button:hover {
-    background-color: beige;
+    background-color: rgb(107, 92, 92);
     
 }
 
@@ -311,10 +309,7 @@ html, body{
     color: white; 
 }
 
-.Text button a:hover{
-    background-color: orangered; 
-    color: white; 
-}
+
 
 
 .box1{
@@ -379,11 +374,11 @@ html, body{
 
 .box1 button:hover{
     background-color: orangered; 
-    color: white; 
+    
 }
 
 .box1 button a:hover{
-    background-color: orangered; 
+    
     color: white; 
 }
 
@@ -453,6 +448,7 @@ html, body{
     display: flex;
     height: 30rem;
     overflow: auto;
+    overflow-x: hidden;
     padding: 10px;
     margin-top: 5rem;
 }

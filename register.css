@@ -77,12 +77,18 @@ h2 {
   outline: none;
   font-size: 16px;
   color: black;
-  padding-left: 10px;
+  padding-left: 5px;
+  text-indent: 13px;
 }
 
 .input-field ::placeholder {
-    color: white;
-    padding-left: 10px;
+    color: black;
+    padding-left: 5px;
+}
+
+.conditions{
+  color: white;
+  margin-left: 50px;
 }
 
 
@@ -127,36 +133,13 @@ button:hover {
 .register {
   text-align: center;
   margin-top: 30px;
-  color: black;
+  color: white;
+  margin-top: 5px;
+
 }
+
 
 .register a {
     color: orangered;
 }
 
-.Home{
-
-    background-color: #ccb28c;
-    width: 50%;
-    height: 30px;
-    margin-left: 80px;
-    margin-top: 10px;
-    border-radius: 20px;
-
-}
-
-.Home a{
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    padding-top: 10px;
-
-}
-
-.Home:hover{
-    border: #c38325;
-}
-
-
-.Home h5 {
-    padding-top: 6px;}

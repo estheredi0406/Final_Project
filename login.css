@@ -33,7 +33,7 @@
     border-radius: 8px;
     padding: 30px;
     text-align: center;
-    border: 5px solid black;
+    border: 1px solid orangered;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(50px);
   }
@@ -43,21 +43,26 @@
     flex-direction: column;
   }
   
+
   h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: black;
+    color: orangered
   }
+
+
+
+
   
   .input-field {
     position: relative;
-    border: 2px solid black;
+    border: 1px solid orangered;
     margin: 12px 0;
     padding: 5px;
     border-radius: 30px;
-    
   }
   
+
   .input-field label {
     position: absolute;
     top: 50%;
@@ -77,15 +82,19 @@
     outline: none;
     font-size: 16px;
     color: black;
+    text-indent: 13px;
   }
   
   .input-field ::placeholder {
       color: #0f0e0e;
+      padding-left: 5px;
   }
   
-  .conditions{
+  .conditions1{
 
     display:flex;
+    color: white;
+    justify-content: space-between;
         
   }
 
@@ -129,14 +138,14 @@
     cursor: pointer;
     margin-top: 10px;
     border-radius: 3px;
+    
     font-size: 16px;
-    border: 5px solid transparent;
     transition: 0.3s ease;
   }
   
   button:hover {
     color: orangered;
-    border-color: #fff;
+    border: 1px solid orangered;
     background: rgba(218, 137, 137, 0.15);
   }
   
